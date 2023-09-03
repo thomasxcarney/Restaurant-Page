@@ -1,5 +1,6 @@
 const frontPageContent = function() {
     const container = document.getElementById('content');
+    const homeBtn = document.getElementById('home');
     function createHeadline() {
         const headline = document.createElement('h1');
         headline.innerHTML = "Thomas' Pizza Restaurant";
@@ -15,6 +16,8 @@ const frontPageContent = function() {
         paragraph.innerHTML = 'Classic roman style pizza in teglia, built on a sourdough base.';
         container.appendChild(paragraph);
     };
+    container.innerHTML = '';
+    homeBtn.classList.add('currentTab');
     createHeadline();
     createImg();
     createPara();
