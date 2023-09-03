@@ -12,7 +12,7 @@ const frontPageContent = function() {
     };
     function createPara() {
         const paragraph = document.createElement('p');
-        paragraph.innerHTML = 'Class roman style pizza in teglia, built on a sourdough base.';
+        paragraph.innerHTML = 'Classic roman style pizza in teglia, built on a sourdough base.';
         container.appendChild(paragraph);
     };
     createHeadline();
