@@ -1,3 +1,5 @@
+import image from '../dist/pizza.jpeg'
+
 const frontPageContent = function() {
     const container = document.getElementById('content');
     const homeBtn = document.getElementById('home');
@@ -8,7 +10,7 @@ const frontPageContent = function() {
     };
     function createImg() {
         const img = document.createElement('img');
-        img.src = '../dist/pizza.jpeg';
+        img.src = image;
         container.appendChild(img);
     };
     function createPara() {
